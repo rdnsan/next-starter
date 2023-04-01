@@ -1,38 +1,70 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div align="center">
+  <img src="public/react.svg" alt="React Icon" height="100" />
+</div>
 
-## Getting Started
+<h4 align="center">Next.js Starter</h4>
+<p align="center">A starter Next.js project with TypeScript, ESLint, Prettier and Jest.</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/version-0.1.9-blue" alt="version 0.1.9"/>
+  <img src="https://img.shields.io/badge/license-MIT-brightgreen" alt="license MIT"/>
+  <img src="https://img.shields.io/badge/author-Ridwan%20Ikhsan-lightseagreen" alt="author Ridwan Ikhsan"/>
+</p>
 
-First, run the development server:
+## Prerequisite
 
-```bash
-npm run dev
+- [Node.js](https://nodejs.org/) v16.20.0 or higher
+- [pnpm](https://pnpm.io/) v8.0.0 or higher
+
+## Usage
+
+```sh
+pnpm dlx degit rdnsan/next-starter my-project
 # or
-yarn dev
-# or
-pnpm dev
+npx degit rdnsan/next-starter my-project
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Installation
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+Install dependencies
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+```sh
+pnpm i
+```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Run Project Locally
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Start the development server
 
-## Learn More
+```sh
+pnpm dev
 
-To learn more about Next.js, take a look at the following resources:
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Server running at http://localhost:3000
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Run ESLint
 
-## Deploy on Vercel
+```sh
+pnpm lint
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Run Unit Test
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+```sh
+pnpm test
+```
+
+Running test in watch mode `pnpm test:watch`
+
+## Build
+
+Build for Production
+
+```sh
+pnpm build
+
+```
+
+## License
+
+[MIT](LICENSE) © Ridwan Ikhsan

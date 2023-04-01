@@ -1,6 +1,6 @@
 {
   "name": "@rdnsan/next-starter",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Next.js Starter Template",
   "private": true,
   "author": "Ridwan Ikhsan <ridwan.jsx@gmail.com>",
@@ -28,6 +28,8 @@
     "@types/react-dom": "^18.0.11",
     "eslint": "^8.37.0",
     "eslint-config-next": "^13.2.4",
+    "prettier": "^2.8.7",
+    "prettier-plugin-organize-imports": "^3.2.2",
     "typescript": "^5.0.3"
   },
   "engines": {

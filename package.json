@@ -1,7 +1,16 @@
 {
-  "name": "next-starter",
-  "version": "0.1.0",
+  "name": "@rdnsan/next-starter",
+  "version": "0.1.1",
+  "description": "Next.js Starter Template",
   "private": true,
+  "author": "Ridwan Ikhsan <ridwan.jsx@gmail.com>",
+  "repository": "https://github.com/rdnsan/next-starter.git",
+  "license": "MIT",
+  "keywords": [
+    "next",
+    "typescript",
+    "next-starter"
+  ],
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,14 +18,20 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@types/node": "18.15.11",
-    "@types/react": "18.0.31",
-    "@types/react-dom": "18.0.11",
-    "eslint": "8.37.0",
-    "eslint-config-next": "13.2.4",
     "next": "13.2.4",
     "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "typescript": "5.0.3"
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "@types/react": "^18.0.31",
+    "@types/react-dom": "^18.0.11",
+    "eslint": "^8.37.0",
+    "eslint-config-next": "^13.2.4",
+    "typescript": "^5.0.3"
+  },
+  "engines": {
+    "node": ">=16.20.0",
+    "pnpm": ">=8"
   }
 }

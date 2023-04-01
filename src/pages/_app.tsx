@@ -1,13 +1,14 @@
-import "@/styles/globals.css";
-import { Inter } from "next/font/google";
-import type { AppProps, NextWebVitalsMetric } from "next/app";
+/* eslint-disable no-console */
+import '@/styles/globals.css';
+import type { AppProps, NextWebVitalsMetric } from 'next/app';
+import { Inter } from 'next/font/google';
 
 const inter = Inter({
-  subsets: ["latin"],
+  subsets: ['latin'],
 });
 
 export function reportWebVitals(metric: NextWebVitalsMetric) {
-  if (metric.label === "web-vital") {
+  if (metric.label === 'web-vital') {
     console.table(metric);
   } else {
     console.log(metric);

@@ -5,6 +5,7 @@ import { Inter } from 'next/font/google';
 
 const inter = Inter({
   subsets: ['latin'],
+  variable: '--font-inter',
 });
 
 export function reportWebVitals(metric: NextWebVitalsMetric) {
@@ -17,7 +18,7 @@ export function reportWebVitals(metric: NextWebVitalsMetric) {
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
-    <div className={inter.className}>
+    <div className={`${inter.variable} font-sans`}>
       <Component {...pageProps} />
     </div>
   );

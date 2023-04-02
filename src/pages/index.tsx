@@ -11,8 +11,8 @@ export default function Home() {
         <link rel="icon" href="/react.svg" />
       </Head>
       <main className="">
-        <div className="">
-          <h1>Welcome to Next.js</h1>
+        <div className="text-center">
+          <h1 className="my-4 text-3xl text-sky-600">Welcome to Next.js</h1>
         </div>
       </main>
     </React.Fragment>

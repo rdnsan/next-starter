@@ -17,10 +17,22 @@
 
 ## Usage
 
+Run this command on terminal `pnpm dlx degit rdnsan/next-starter <project-name>`
+
+use base template
+
 ```sh
 pnpm dlx degit rdnsan/next-starter my-project
 # or
 npx degit rdnsan/next-starter my-project
+```
+
+with tailwindcss
+
+```sh
+pnpm dlx degit rdnsan/next-starter#with-tailwind my-project
+# or
+npx degit rdnsan/next-starter#with-tailwind my-project
 ```
 
 ## Installation
